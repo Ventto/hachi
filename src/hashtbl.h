@@ -3,6 +3,9 @@
 
 #define LINE_MAX    1000
 
+/* FIXME: Use custom made implementation for wordcounting 
+   instead of the generic one ? */ 
+
 typedef struct list_collisions {
     char label[LINE_MAX];
     void *data;
