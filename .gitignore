@@ -1,0 +1,5 @@
+[._]*.sw[a-p]
+*.o
+wordcount
+massif.log
+run.gdb
