@@ -1,10 +1,10 @@
-BIN 	= wordcount
+BIN     = wordcount
 
-SRCDIR	= src
-SRCS 	= hashtbl.c main.c
-OBJS	= $(addprefix $(SRCDIR)/, $(SRCS:.c=.o))
+SRCDIR  = src
+SRCS    = hashtbl.c main.c
+OBJS    = $(addprefix $(SRCDIR)/, $(SRCS:.c=.o))
 
-CC	:= gcc
+CC      := gcc
 CFLAGS  := -Wall -Wextra -pedantic -std=c99
 
 .PHONY: all
