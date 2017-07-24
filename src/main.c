@@ -10,14 +10,20 @@ static void usage()
            "If no FILE is given, the standard input is used instead.\n\n");
 }
 
+static void parse_dico(FILE *file)
+{
+    /* FIXME: parse & hashtbl init
+       '#' comment or empty line are ignored. */
+}
+
 static void parse_files(FILE *dico, FILE **filelst)
 {
-    /* FIXME: parse & hashtbl init & job */
+    /* FIXME: parse & job */
 }
 
 static void parse_input(FILE *dico)
 {
-    /* FIXME: parse & hashtbl init & job */
+    /* FIXME: parse stdin & job */
 }
 
 int main(int argc, char **argv)
